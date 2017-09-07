@@ -20,6 +20,14 @@ In this example, fields are directly manipulated instead of relying on property 
 `com.mattwittmann.polyglots.languagetricks.JavaBeanAlternativesTest`
 `com.mattwittmann.polyglots.languagetricks.JavaBeanAlternatives`
 
+### Executable Seemingly Commented-Out Code
+
+Most editors display the whole line as a comment, but the Java compiler still parses Unicode character escapes,
+leading it to to consider everything after `\u000A` as belonging to a new line of code.
+
+`com.mattwittmann.polyglots.languagetricks.CommentCodeTest`
+`com.mattwittmann.polyglots.languagetricks.CommentCode`
+
 ### Double-Brace Initialization
 
 Historically, initializing collections in Java could be tedious. The upcoming release of Java 9 and other libraries
